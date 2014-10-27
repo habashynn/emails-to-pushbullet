@@ -1,15 +1,15 @@
 emails-to-pushbullet
 ====================
 
-Receive PushBullet notifications from e-mails sent to a mailbox.
+Receive PushBullet notifications from e-mails sent to a mailbox. This script requires that PHP is able to execute imap_ functions to read your mailbox.
 
 
 Thanks to
 ====================
 
-PushBullet service by PushBullet (http://www.pushbullet.com)
-PushBullet PHP API by ivkos (https://github.com/ivkos/PushBullet-for-PHP)
-PHP IMAP by barbushin (https://github.com/barbushin/php-imap)
+  - PushBullet service by PushBullet (http://www.pushbullet.com)
+  - PushBullet PHP API by ivkos (https://github.com/ivkos/PushBullet-for-PHP)
+  - PHP IMAP by barbushin (https://github.com/barbushin/php-imap)
 
 
 How to install
