@@ -34,7 +34,7 @@ Device IDs:
   4. 
   
 
-TransIP Notifcations
+TransIP Notificaties
 =======================
 
 Dit script is oorspronkelijk geschreven om notificaties van TransIP monitoring door te sturen naar meerdere devices via PushBullet. Het instellen hiervan is erg simpel:
