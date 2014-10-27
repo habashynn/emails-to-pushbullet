@@ -1,4 +1,4 @@
-emails-to-pushbullet
+Emails to PushBullet using PHP & Cronjobs
 ====================
 
 Receive PushBullet notifications from e-mails sent to a mailbox. This script requires that PHP is able to execute imap_ functions to read your mailbox. Original made to receive PushBullet messages from TransIP server monitoring notifications (see bottom).
