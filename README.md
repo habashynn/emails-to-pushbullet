@@ -1,10 +1,10 @@
 emails-to-pushbullet
 ====================
 
-Receive PushBullet notifications from TransIP notification e-mails
+Receive PushBullet notifications from e-mails sent to a mailbox.
 
 
-This script uses some classes and services made by others:
+Thanks to
 ====================
 
 PushBullet service by PushBullet (http://www.pushbullet.com)
@@ -20,7 +20,7 @@ How to install
   3. Save and upload the files to your website
   4. Configure a cronjob to run this script every minute (*/1 * * * * *)
   
-How to find your PushBullet API key and Device IDs
+PushBullet API & Device keys
 =====================
 
 API Key:
