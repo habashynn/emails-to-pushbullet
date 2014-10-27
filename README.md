@@ -1,7 +1,7 @@
 emails-to-pushbullet
 ====================
 
-Receive PushBullet notifications from e-mails sent to a mailbox. This script requires that PHP is able to execute imap_ functions to read your mailbox.
+Receive PushBullet notifications from e-mails sent to a mailbox. This script requires that PHP is able to execute imap_ functions to read your mailbox. Original made to receive PushBullet messages from TransIP server monitoring notifications (see bottom).
 
 
 Thanks to
@@ -31,3 +31,17 @@ Device IDs:
   1. Login using your PushBullet login credentials
   2. Click on of your added devices in the list on the left side of the page
   3. Your Device ID is listed in the URL: ?device_iden=YOUR_DEVICE_ID
+  4. 
+  
+
+TransIP Notifcations
+=======================
+
+Dit script is oorspronkelijk geschreven om notificaties van TransIP monitoring door te sturen naar meerdere devices via PushBullet. Het instellen hiervan is erg simpel:
+
+  1. Maak een e-mail account aan waarop notificaties ontvangen kunnen worden, bijvoorbeeld notifications@domein.tld
+  2. Login op TransIP en ga naar VPS -> Contactpersonen (hoogstwaarschijnlijk ook bij andere type hosting/server beschikbaar)
+  3. Voeg een contactpersoon toe met het e-mailadres dat je hebt aangemaakt in stap 1
+  4. Klik op VPS Monitoring (ook hier geldt: waarschijnlijk ook bij andere hosting/server types beschikbaar)
+  5. Voeg of bewerk een monitor profiel en activer de zojuist toegevoegde contactpersoon voor e-mail notificaties
+  6. Voer de stappen zoals hierboven in het Engels uitgelegd om de e-mail notificaties vervolgens via PushBullet naar je devices gepusht te krijgen
