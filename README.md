@@ -18,7 +18,7 @@ How to install
   1. Clone the repository to your system or project folder.
   2. Open push.php and modify the settings on top
   3. Save and upload the files to your website
-  4. Configure a cronjob to run this script every minute (*/1 * * * * *)
+  4. Configure a cronjob to run this script every minute (* * * * * *)
   
 PushBullet API & Device keys
 =====================
